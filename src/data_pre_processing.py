@@ -23,10 +23,15 @@ def pre_process_data(file_path: str, output_file_path: str):
     assert int(data_train[data_train.columns[0]].values.sum()) == int(
         np.log1p(test_data_train[test_data_train.columns[0]]).sum())
 
+    # let's check if the original values after de-logarithmisation are correct
+    assert int(test_data_train[test_data_train.columns[0]].sum()) == int(
+        np.expm1(data_train[data_train.columns[0]]).sum())
+
     # save data after pre-processing to csv file
     data_train.to_csv(output_file_path, index=False)
 
+
 # file_path = "../data/pTD50_maccsfp.csv"
 # output_file_path = "../data/pTD50_maccsfp_after_preprocessing.csv"
-
+#
 # pre_process_data(file_path, output_file_path)
