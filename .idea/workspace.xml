@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5323a8a7-40bc-40f9-9ed8-8dd8e0828f43" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/data/alt_maccsfp_after_preprocessing.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/alt_maccsfp_after_preprocessing.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pTD50_maccsfp_after_preprocessing.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/pTD50_maccsfp_after_preprocessing.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/alt_prediction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/alt_prediction.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/data_pre_processing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/data_pre_processing.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_pre_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_pre_processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +41,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="108" />
     <option name="y" value="-714" />
     <option name="width" value="922" />
@@ -74,6 +70,9 @@
       </pane>
       <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -129,7 +128,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-1088" width="1936" height="1056" extended-state="6" />
+    <frame x="-1" y="-1088" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
