@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5323a8a7-40bc-40f9-9ed8-8dd8e0828f43" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/alt_prediction_best_model_analysis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/finalized_lasso_model_0.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/models/finalized_lasso_model_0.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/finalized_lasso_model_1.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/models/finalized_lasso_model_1.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/finalized_lasso_model_2.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/models/finalized_lasso_model_2.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/finalized_lasso_model_3.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/models/finalized_lasso_model_3.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/finalized_lasso_model_4.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/models/finalized_lasso_model_4.pickle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/alt_prediction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/alt_prediction.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/alt_prediction_best_model_analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/alt_prediction_best_model_analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/finalized_model.sav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/actual_vs_predicted_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/actual_vs_predicted_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/actual_vs_predicted_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/actual_vs_predicted_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/actual_vs_predicted_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alt_prediciton.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/alt_prediciton.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,68 +22,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data_pre_processing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/csv_data_extraction.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/alt_prediciton.py">
+        <entry file="file://$PROJECT_DIR$/src/alt_prediction_best_model_analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1160">
-              <caret line="58" column="43" lean-forward="true" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+            <state relative-caret-position="1100">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-1340751179/builtins.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101320">
-              <caret line="5066" column="8" selection-start-line="5066" selection-start-column="8" selection-end-line="5066" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/notebooks/csv_data_extraction.ipynb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/notebooks/data_pre_processing.ipynb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pandas/core/groupby/groupby.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17040">
-              <caret line="907" selection-start-line="907" selection-end-line="907" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pandas/core/groupby/generic.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4360">
-              <caret line="284" column="4" selection-start-line="284" selection-start-column="4" selection-end-line="284" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -102,21 +52,24 @@
         <option value="$PROJECT_DIR$/src/data_pre_processing.py" />
         <option value="$PROJECT_DIR$/src/dawid.szczerba.11.py" />
         <option value="$PROJECT_DIR$/alt_prediciton.py" />
+        <option value="$PROJECT_DIR$/src/saas.py" />
+        <option value="$PROJECT_DIR$/src/alt_prediction_best_model_analysis.py" />
         <option value="$PROJECT_DIR$/src/alt_prediciton.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-84" />
+    <option name="y" value="316" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,23 +80,12 @@
             <path>
               <item name="umwpl2021-hepatoxicity-prediction" type="b2602c69:ProjectViewProjectNode" />
               <item name="umwpl2021-hepatoxicity-prediction" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="umwpl2021-hepatoxicity-prediction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="umwpl2021-hepatoxicity-prediction" type="462c0819:PsiDirectoryNode" />
-              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="umwpl2021-hepatoxicity-prediction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="umwpl2021-hepatoxicity-prediction" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,6 +131,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="alt_prediction_best_model_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="umwpl2021-hepatoxicity-prediction" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/alt_prediction_best_model_analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="data_pre_processing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="umwpl2021-hepatoxicity-prediction" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -210,9 +173,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="saas" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="umwpl2021-hepatoxicity-prediction" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/saas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.alt_prediciton" />
+        <item itemvalue="Python.saas" />
+        <item itemvalue="Python.alt_prediction_best_model_analysis" />
         <item itemvalue="Python.data_pre_processing" />
       </list>
     </recent_temporary>
@@ -238,8 +224,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.08651026" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947146" weight="0.3079179" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2888563" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947146" weight="0.28152493" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -263,19 +249,30 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/alt_prediciton.py</url>
-          <line>69</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/alt_prediciton.py</url>
           <line>47</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/alt_prediction_best_model_analysis.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/alt_prediction_best_model_analysis.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>lime_tabular.LimeTabularExplainer(x_train, mode=&quot;regression&quot;,
+                                                  feature_names=features)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>cv_results</expression-string>
         <language-id>Python</language-id>
@@ -290,47 +287,47 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>results['pred_train'][0]</expression-string>
+        <expression-string>plt</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>results['pred_train'][0].array</expression-string>
+        <expression-string>plt.bar(df['Model'], df['test_accuracy_R2'], color ='maroon', width = 0.4)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>results['pred_train']</expression-string>
+        <expression-string>pd.read_csv(f&quot;../results/all_models_results.csv&quot;, ignore_index=True)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>str(results['pred_train'])</expression-string>
+        <expression-string>df</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>results</expression-string>
+        <expression-string>set([el[0] for l in a for el in l if el[1] == 0.0])</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>list(cv_outer.split(x))</expression-string>
+        <expression-string>[el[0] for l in a for el in l if el[1] == 0.0]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>enumerate(cv_outer.split(x))</expression-string>
+        <expression-string>[el for l in a for el in l if el[1] == 0.0]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>str(model).split(&quot;(&quot;, 1)[0]</expression-string>
+        <expression-string>y_test[sorted_absolute_error_idx[0]], y_pred_test[sorted_absolute_error_idx[0]], y_test[sorted_absolute_error_idx[::-1][0]], y_pred_test[sorted_absolute_error_idx[::-1][0]],</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>str(model).split(&quot;(&quot;, 1)</expression-string>
+        <expression-string>y_test[sorted_absolute_error_idx[0]], y_pred_test[sorted_absolute_error_idx[0]]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -338,28 +335,14 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/dawid.szczerba.11.py" />
-    <entry file="file://$PROJECT_DIR$/src/data_pre_processing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csv_data_extraction.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dsaads" />
+    <entry file="file://$PROJECT_DIR$/src/dsaads.csv" />
     <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-1340751179/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101320">
           <caret line="5066" column="8" selection-start-line="5066" selection-start-column="8" selection-end-line="5066" selection-end-column="8" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notebooks/csv_data_extraction.ipynb">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/notebooks/data_pre_processing.ipynb">
       <provider selected="true" editor-type-id="text-editor" />
@@ -378,19 +361,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dsaads">
+    <entry file="file://$PROJECT_DIR$/notebooks/csv_data_extraction.ipynb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dsaads.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+    <entry file="file://$PROJECT_DIR$/src/csv_data_extraction.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/lime/lime_tabular.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10485">
+          <caret line="123" column="8" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebooks/alt_prediction_best_model_analysis.ipynb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/saas.py" />
+    <entry file="file://$PROJECT_DIR$/src/data_pre_processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3490" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/alt_prediciton.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1160">
-          <caret line="58" column="43" lean-forward="true" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+        <state relative-caret-position="171">
+          <caret line="59" column="48" lean-forward="true" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alt_prediction_best_model_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

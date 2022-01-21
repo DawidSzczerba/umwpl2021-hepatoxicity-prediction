@@ -64,6 +64,3 @@ def calculate_model_results(model, cv_outer, x, y):
 
 def get_final_model_result(results):
     return results['test_score'].mean()
-
-
-
