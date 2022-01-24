@@ -29,6 +29,32 @@ def draw_actual_vs_predicted_plot(folder_path, number, y_test, y_pred_test, resu
     plt.show()
 
 
+def explanation_worst_vs_best_predictions(model, x_train, x_test, y_test,
+                                          y_pred_test, features):
+    """
+    Compare worst vs best predictions - check for differences in significant fingerprints
+    """
+    sorted_absolute_error_idx = np.argsort(np.absolute(np.subtract(y_test, y_pred_test)))
+    explainer = lime_tabular.LimeTabularExplainer(x_train, mode="regression",
+                                                  feature_names=features)
+
+    explanations_best = []
+    explanations_worst = []
+
+    for i in range(0, 3):
+        explanation_best = explainer.explain_instance(x_test[sorted_absolute_error_idx[i]],
+                                                      model.predict,
+                                                      num_features=10)
+
+        explanation_worst = explainer.explain_instance(
+            x_test[sorted_absolute_error_idx[::-1][i]], model.predict,
+            num_features=5)
+        explanations_best.append(explanation_best.as_list())
+        explanations_worst.append(explanation_worst.as_list())
+
+    return explanations_best, explanations_worst
+
+
 def model_explanation(folder_path, number, model, x_train, x_test, y_test, y_pred_test, features):
     """
     Function generates html reports using LIME framework (https://github.com/marcotcr/lime)

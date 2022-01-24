@@ -1,0 +1,5 @@
+Model,test_accuracy_R2
+Lasso,-0.04
+RandomForestRegressor,-0.142
+GradientBoostingRegressor,-0.198
+DecisionTreeRegressor,-0.704
