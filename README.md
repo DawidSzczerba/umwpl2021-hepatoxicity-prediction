@@ -11,6 +11,16 @@ For the data provided for the ALT parameter, it was possible to train models tha
 
 For the dataset related to the TD50 parameter, there was too little data - only 54 records - the results are not worth analysing.
 
+## Project structure
+* [`data`](/data) : zawiera dane wyrazone za pomoca fingerprintu MACCSFP, z ktorych skorzystano do obliczenia hepatoksycznosci - dane są zapisane w postaci przed i po preprocessingu
+* [`notebooks`](/notebooks) : Contains python notebooks that show the results of the experiment - you can see the preprocessing, best model analysis, alt parameter prediction (in a subfolder you can see other predictions) and data extraction process
+* [`src`](/src) : It contains .py files that contain the functions used in the project. It is very easy to make predictions for models other than those used in the project.
+* There are also files from data extraction and pre-processing containing tests, as this is a key stage in the project.
+* [`presentations`](/presentations) : Files with project presentations in Polish
+* [`results`](/results) : Contains results for all models as csv files and graphs for all models
+* [`models`](/models) : Contains all the saved models as a pickle, so that the results of the project can be easily retrieved
+* [`best_model_analysis`](/best_model_analysis) : Contains the files used to analyse the best model.
+Please note the html files. These are detailed explanations made using the LIME method, which show how a given fingerprint bit has affected a given prediction.
 
 
 ## Installation
